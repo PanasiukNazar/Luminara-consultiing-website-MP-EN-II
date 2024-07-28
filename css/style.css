@@ -1573,12 +1573,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_bg_1 {
-    background-image: url(../img/banner/banner.png);
+    background-image: url(../img/banner/banner1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_bg_2 {
-    background-image: url(../img/banner/banner2.png);
+    background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
@@ -1879,20 +1879,22 @@ h3 {
 }
 
 /* line 23, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_testmonial.scss */
-.testimonial_area .single_testmonial .testmonial_author .thumb {
-    width: 68px;
-    height: 68px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    margin: auto;
-    margin: auto auto 15px auto;
-}
 
 .testimonial_area .single_testmonial {
     max-width: 70%;
     text-align: center;
     margin: 0 auto;
+}
+
+.testimonial_area .single_testmonial .testmonial_author img {
+    width: 200px !important;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    margin: auto auto 15px auto;
 }
 /* line 30, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h4 {
@@ -2438,7 +2440,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_choseus.scss */
 .chose_bg_1 {
-    background-image: url(../img/banner/chose_banner.png);
+    background-image: url(../img/banner/chose_banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_choseus.scss */
@@ -2494,7 +2496,7 @@ h3 {
 
 /* line 42, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_choseus.scss */
 .contact_us {
-    background-image: url(../img/banner/contact.png);
+    background-image: url(../img/banner/contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 137px 0;
@@ -2531,22 +2533,22 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-    background-image: url(../img/banner/bradcam.png);
+    background-image: url(../img/banner/bradcam.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_2 {
-    background-image: url(../img/banner/bradcam2.png);
+    background-image: url(../img/banner/bradcam2.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_3 {
-    background-image: url(../img/banner/bradcam3.png);
+    background-image: url(../img/banner/bradcam3.jpg);
 }
 
 /* line 10, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_4 {
-    background-image: url(../img/banner/details.png);
+    background-image: url(../img/banner/bradcam4.jpg);
 }
 
 /* line 13, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
